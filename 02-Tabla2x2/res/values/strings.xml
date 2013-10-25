@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">02-Tabla2x2</string>
+    <string name="large1">Celda 1</string>
+    <string name="large2">Celda 2</string>
+    <string name="large3">Celda 3</string>
+    <string name="large4">Celda 4</string>
+    <string name="buttontext">Intercambia celdas</string>
+
+</resources>
