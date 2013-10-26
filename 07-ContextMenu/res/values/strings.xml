@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">07-ContextMenu</string>
+    <string name="action_settings">Settings</string>
+    <string name="context_launcher">Mantén pulsado</string>
+    <string name="itemone">Item 1</string>
+    <string name="itemtwo">Item 2</string>
+    <string name="itemthree">Item 3</string>
+    <string name="subitemone">Subitem 1</string>
+    <string name="subitemtwo">Subitem 2</string>
+    <string name="context_default">Pon el fondo por defecto</string>
+	<string name="context_red">Pon el fondo de color rojo</string>
+	<string name="context_purple">Pon el fondo de color morado</string>
+</resources>

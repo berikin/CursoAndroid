@@ -1,7 +1,6 @@
 package es.jimenezfrontend.spinner;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -20,10 +19,20 @@ public class Main extends Activity
 		{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_layout);
+		// ///////////////////////////////////////////////////////////
+		// RECOGEMOS EL TEXTVIEW Y EL SPINNER
+		// ///////////////////////////////////////////////////////////
 		t1 = (TextView) findViewById(R.id.textView1);
 		sp1 = (Spinner) findViewById(R.id.spinner1);
+		// ///////////////////////////////////////////////////////////
+		// CREAMOS EL ARRAYADAPTER A PARTIR DEL XML COLORS.XML
+		// ///////////////////////////////////////////////////////////
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.colors_values, android.R.layout.simple_spinner_dropdown_item);
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		// ///////////////////////////////////////////////////////////
+		// ESTABLECEMOS EL ADAPTADOR PARA NUESTRO SPINNER
+		// Y EL EVENTO QUE SE LANZA AL HACER CLICK EN UN ITEM
+		// ///////////////////////////////////////////////////////////
 		sp1.setAdapter(adapter);
 		sp1.setOnItemSelectedListener(new OnItemSelectedListener()
 			{
@@ -31,7 +40,11 @@ public class Main extends Activity
 				@Override
 				public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long arg3)
 					{
-					// TODO Auto-generated method stub
+					// ///////////////////////////////////////////////////////////
+					// POSITION NOS SIRVE COMO ÍNDICE DE NUESTRO ARRAY
+					// DE COLORS.XML; SABIENDO ESTO ESTABLECEMOS EL
+					// FONDO DEL TEXTVIEW APROPIADO
+					// ///////////////////////////////////////////////////////////
 					switch (position)
 						{
 						case 0:
@@ -54,10 +67,8 @@ public class Main extends Activity
 				@Override
 				public void onNothingSelected(AdapterView<?> arg0)
 					{
-					// TODO Auto-generated method stub
-
+					// MÉTODO IMPLEMENTADO DE LA CLASE ABSTRACTA DE FORMA OBLIGATORIA
 					}
-
 			});
 		}
 	}

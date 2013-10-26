@@ -19,6 +19,9 @@ public class Main extends Activity
 		setContentView(R.layout.main_layout);
 		ch1 = (CheckBox) findViewById(R.id.cb1);
 		img = (ImageView) findViewById(R.id.img1);
+		// ///////////////////////////////////////////////////////////
+		// EVENTO PARA COMPROBAR EL CAMBIO DE CHECK
+		// ///////////////////////////////////////////////////////////
 		ch1.setOnCheckedChangeListener(new OnCheckedChangeListener()
 			{
 

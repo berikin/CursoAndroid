@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/item_one"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="@string/itemone">
+            </item>
+            <item
+                android:id="@+id/item_two"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="@string/itemtwo">
+            </item>
+            <item
+                android:id="@+id/item_three"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="@string/itemthree">
+                <menu>
+                    <item
+                        android:id="@+id/subitem_one"
+                        android:orderInCategory="100"
+                        android:showAsAction="always"
+                        android:title="@string/subitemone">
+                    </item>
+                    <item
+                        android:id="@+id/subitem_two"
+                        android:orderInCategory="100"
+                        android:showAsAction="always"
+                        android:title="@string/subitemtwo">
+                    </item>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+</menu>

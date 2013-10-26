@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/toDefault"
+        android:title="@string/context_default">
+    </item>
+    <item
+        android:id="@+id/toPurple"
+        android:title="@string/context_purple">
+    </item>
+    <item
+        android:id="@+id/toRed"
+        android:title="@string/context_red">
+    </item>
+
+</menu>      
