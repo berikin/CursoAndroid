@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">05-OptionsTextView</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">05-OptionsMenu</string>
+    <string name="menu_colors">Colores</string>
     <string name="color_chooser">Escoge el color de fondo</string>
-
+	<string name="to_red">Rojo oscuro</string>
+	<string name="to_blue">Azul oscuro</string>
+	<string name="to_yellow">Amarillo oscuro</string>
+	<string name="to_green">Verde oscuro</string>
 </resources>

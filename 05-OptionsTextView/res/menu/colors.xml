@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/colors" android:orderInCategory="100" android:showAsAction="always" android:menuCategory="container" android:title="@string/menu_colors" android:icon="@drawable/color_chooser">
+        <menu>
+            <item android:id="@+id/menu_to_red" android:title="@string/to_red"/>
+            <item android:id="@+id/menu_to_blue" android:title="@string/to_blue"/>
+            <item android:id="@+id/menu_to_yellow" android:title="@string/to_yellow"/>
+            <item android:id="@+id/menu_to_green" android:title="@string/to_green"/>
+        </menu>
+    </item>
+    
+
+</menu>
