@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listview_values">
+        <item>Elemento inicial 1</item>
+        <item>Elemento inicial 2</item>
+        <item>Elemento inicial 3</item>
+    </string-array>
+</resources>

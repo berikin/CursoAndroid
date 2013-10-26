@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">06-ListViewEditable</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_add">Añadir</string>
+    <string name="context_del">Eliminar</string>
+    <string name="new_elem">Nuevo elemento</string>
+</resources>

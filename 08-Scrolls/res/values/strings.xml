@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">08-Scrolls</string>
+    <string name="action_settings">Settings</string>
+    <string name="p1">Con diez cañones por banda,\nviento en popa, a toda vela,\nno corta el mar, sino vuela\nun velero bergantín.\nBajel pirata que llaman,\npor su bravura, el Temido,\nen todo mar conocido\ndel uno al otro confín.\n</string>
+    <string name="p2">La luna en el mar rïela,\nen la lona gime el viento,\ny alza en blando movimiento\nolas de plata y azul;\ny va el capitán pirata,\ncantando alegre en la popa,\nAsia a un lado, al otro Europa,\ny allá a su frente Stambul:\n</string>
+    <string name="p3">«Navega, velero mío,\nsin temor,\nque ni enemigo navío\nni tormenta, ni bonanza\ntu rumbo a torcer alcanza,\nni a sujetar tu valor.\n</string>
+    <string name="p4">Veinte presas\nhemos hecho\na despecho\ndel inglés,\ny han rendido\nsus pendones\ncien naciones\na mis pies.\n</string>
+    <string name="p5">Que es mi barco mi tesoro,\nque es mi dios la libertad,\nmi ley, la fuerza y el viento,\nmi única patria, la mar.\n</string>
+    <string name="p6">Allá muevan feroz guerra\nciegos reyes\npor un palmo más de tierra;\nque yo aquí tengo por mío\ncuanto abarca el mar bravío,\na quien nadie impuso leyes.\n</string>
+    <string name="p7">Y no hay playa,\nsea cualquiera,\nni bandera\nde esplendor,\nque no sienta\nmi derecho\ny dé pecho\na mi valor.\n</string>
+	<string name="imgdesc">Imagen</string>
+</resources>
