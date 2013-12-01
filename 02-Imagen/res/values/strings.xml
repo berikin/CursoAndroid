@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">02-Imagen</string>
+    <string name="touch_me">Presiona sobre mi unos segundos</string>
+    <string name="to_gallery">Abre la galería</string>
+    <string name="exit">Salir de la aplicación</string>
+    <string name="desc">Imagen</string>
+</resources>
