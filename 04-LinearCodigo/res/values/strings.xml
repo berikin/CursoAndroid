@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">4 - Validador de teléfonos</string>
+    <string name="phone_text">Teléfono</string>
+    <string name="phone_description">Descripción</string>
+    <string name="prefix_hint">Prefijo</string>
+    <string name="phone_hint">Número</string>
+    <string name="valid_phone">OK</string>
+    <string name="invalid_phone">No válido</string>
+
+</resources>

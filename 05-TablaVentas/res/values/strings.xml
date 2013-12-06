@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">5 - Balance de ventas</string>
+    <string name="th_year">Año</string>
+    <string name="th_product">Producto A</string>
+    <string name="td_year_2009">2009</string>
+    <string name="td_year_2010">2010</string>
+    <string name="td_year_2011">2011</string>
+    <string name="td_year_2012">2012</string>
+    <string name="td_year_2013">2013</string>
+    <string name="td_total">Totales</string>
+    <string name="number_hint">Introduce una cantidad</string>
+    <string name="button_to_table">Procesar datos</string>
+    <string name="button_to_form">Volver al formulario</string>
+
+</resources>

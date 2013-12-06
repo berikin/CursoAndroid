@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/show_fragment_workers_list"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        class="es.jimenezfrontend.fragments.Workers_Fragment" />
+
+    <fragment
+        android:id="@+id/show_fragment_worker_details"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        class="es.jimenezfrontend.fragments.Worker_Details_Fragment" />
+
+</LinearLayout>

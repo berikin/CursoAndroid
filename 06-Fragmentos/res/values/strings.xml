@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">6 - Trabajadores</string>
+    <string name="worker_one">Juan López</string>
+    <string name="worker_one_details">Horas trabajadas:\n\t10 horas en la última semana.\nSalario neto:\n\t250 Euros.</string>
+</resources>
