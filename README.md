@@ -10,4 +10,12 @@
 
 4. Hacer el siguiente layout mediante código:
 
-5. Hacer  una aplicación que muestre el siguiente layout por código: 
+![Imagen](http://i218.photobucket.com/albums/cc319/Berik_/ej4_zpsfdf49cbc.png)
+
+5. Hacer una aplicación que muestre el siguiente layout por código: 
+
+![Imagen](http://i218.photobucket.com/albums/cc319/Berik_/ej5_zps10b291a9.png)
+
+6. Utilizar un fragmento en una aplicación.
+
+7. Extra - Hacer una aplicación que utilice BroadCastReceiver para escuchar llamadas, SMS y coordenadas GPS. 
