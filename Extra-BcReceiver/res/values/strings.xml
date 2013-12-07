@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Extra-Llamada</string>
+    <string name="calls_button">Lanza el escuchador de llamadas</string>
+    <string name="sms_button">Lanza el escuchador de sms</string>
+    <string name="gps_button">Lanza el escuchador de GPS</string>
+
+</resources>
