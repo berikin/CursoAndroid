@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">05-ActionBar</string>
+    <string name="main_menu">Menú principal</string>
+    <string name="settings">Configuración</string>
+    <string name="camera">Cámara</string>
+    <string name="contacts">Contactos</string>
+    <string name="launching">Lanzando</string>
+
+</resources>

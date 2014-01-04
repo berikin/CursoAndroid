@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">02-Cubo</string>
+    <string name="to_intent_one_hint">selecciona un número para continuar</string>
+    <string name="to_intent_two_hint">selecciona un número para continuar</string>
+    <string name="number_hint">Número recibido</string>
+    <string name="to_main_button">Pulsa aquí para ver su cubo</string>
+
+</resources>

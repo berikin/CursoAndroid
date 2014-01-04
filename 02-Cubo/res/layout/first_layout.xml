@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_one"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/number_hintOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/number_hint"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/pure_white" />
+
+    <TextView
+        android:id="@+id/numberOneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@drawable/rounded_corners"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/pure_white" />
+
+    <Button
+        android:id="@+id/buttonOneLayout"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/to_main_button" />
+
+</LinearLayout>

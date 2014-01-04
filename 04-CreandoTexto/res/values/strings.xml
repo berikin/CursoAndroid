@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">04-CreandoTexto</string>
+    <string name="keyhint">Introduce un carácter</string>
+    <string name="numberhint">Número de repeticiones</string>
+	<string name="generatebutton">Crea el diseño</string>
+</resources>
