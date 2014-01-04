@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">9-Fragmentos</string>
+    <string name="first_fragment">SALUDOS</string>
+    <string name="second_fragment">HOLA</string>
+    <string name="third_fragment">ADIOS</string>
+
+</resources>
