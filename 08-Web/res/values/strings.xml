@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">8-Web</string>
+    <string name="url">Dirección</string>
+    <string name="external_app">Abrir con aplicación externa</string>
+    <string name="internal_app">Abrir con el visor interno</string>
+    <string name="internal_webview">Visor interno</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">03-ConWidgets</string>
+    <string name="change_layout">Cambia el layout</string>
+    <string name="show_toast">Muestra la notificación</string>
+    <string name="info_img">Alerta</string>
+	<string name="toast_info">Notificación personalizada</string>
+</resources>
