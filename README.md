@@ -9,13 +9,13 @@
 3. Principal que implemente OnClickListener y posea dos widgets distintos uno de los cuales al pulsarlo muestre un nuevo layout con una imagen de fondo y el otro mostrara un Toast personalizado.
 
 4. Que muestre en pantalla al pulsar un botón la siguiente imagen:
-
+```
     * * * * *
     * * * *
     * * *
     * *
     * 
-
+```
     El número de líneas a visualizar y el carácter se introducirán desde Editexts.
 
 5. Que muestre un menú con 3 imágenes en la ActionBar.
