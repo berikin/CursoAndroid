@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">7-ImgSDcard</string>
+    <string name="save_img">Guarda la imagen 2</string>
+    <string name="pic_one_desc">Foto 1</string>
+    <string name="pic_two_desc">Foto 2</string>
+    
+
+</resources>
