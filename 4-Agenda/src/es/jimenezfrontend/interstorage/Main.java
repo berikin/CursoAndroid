@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
@@ -42,6 +41,12 @@ public class Main extends Activity {
 	protected void escribirFichero () {
 		OutputStreamWriter escritor = null;
 		try {
+			File theDir = new File ( Environment.getDataDirectory () + "/data/personas" );
+			if ( !theDir.exists () ) {
+				theDir.mkdir ();
+				theDir.setReadable ( true, false );
+				theDir.setExecutable ( true, false );
+			}
 			File f = new File ( Environment.getDataDirectory () + "/data/personas/personas.txt" );
 			Log.d ( "dir", Environment.getDataDirectory () + "/data/personas/personas.txt" );
 			Log.d ( "existe", f.exists () + "" );
@@ -66,6 +71,7 @@ public class Main extends Activity {
 			}
 			txtNombre.setText ( "" );
 			txtTelefono.setText ( "" );
+			f.setReadable ( true, false );
 		}
 		catch ( Exception e ) {
 			Log.e ( "Pepita", e.toString () );
