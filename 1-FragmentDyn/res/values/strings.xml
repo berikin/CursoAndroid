@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">1-FragmentDyn</string>
+    <string name="portrait_text">Diseño horizontal</string>
+    <string name="vertical_text">Diseño vertical</string>
+    <string name="switch_keys">Pulsa CTRL+F11 - CTRL-F12 (Windows) KEYPAD_9 (Mac) para cambiar la orientación</string>
+
+</resources>

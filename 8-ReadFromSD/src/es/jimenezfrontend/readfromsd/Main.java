@@ -3,13 +3,12 @@ package es.jimenezfrontend.readfromsd;
 import java.io.File;
 import java.util.Date;
 
-import android.os.Bundle;
-import android.os.Environment;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
-import android.view.Menu;
 import android.widget.ImageView;
 
 public class Main extends Activity
@@ -39,14 +38,6 @@ public class Main extends Activity
 			}
 		ImageView myImage = (ImageView) findViewById(R.id.image);
 		myImage.setImageBitmap(myBitmap);
-		}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu)
-		{
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
 		}
 
 	}

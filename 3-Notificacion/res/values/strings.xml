@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3-Notificacion</string>
+    <string name="text_hint">Pulsa el botón</string>
+    <string name="btn">Envía una notificación</string>
+
+</resources>
