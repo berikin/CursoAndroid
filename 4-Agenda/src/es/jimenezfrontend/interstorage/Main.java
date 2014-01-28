@@ -18,27 +18,27 @@ import android.widget.EditText;
 public class Main extends Activity {
 
 	public Button btn;
-	public EditText txtNombre, txtTelefono;
+	public EditText text_name, text_phone;
 
 	@Override
 	protected void onCreate ( Bundle savedInstanceState ) {
 		super.onCreate ( savedInstanceState );
 		setContentView ( R.layout.layout_main );
 
-		btn = ( Button ) findViewById ( R.id.button1 );
-		txtNombre = ( EditText ) findViewById ( R.id.editText1 );
-		txtTelefono = ( EditText ) findViewById ( R.id.editText2 );
+		btn = ( Button ) findViewById ( R.id.btn_add );
+		text_name = ( EditText ) findViewById ( R.id.name_edt );
+		text_phone = ( EditText ) findViewById ( R.id.phone_edt );
 
 		btn.setOnClickListener ( new OnClickListener () {
 			@Override
 			public void onClick ( View v ) {
-				escribirFichero ();
+				filewrite ();
 			}
 		} );
 
-	}// FIN ONCREATE
+	}
 
-	protected void escribirFichero () {
+	protected void filewrite () {
 		OutputStreamWriter escritor = null;
 		try {
 			File theDir = new File ( Environment.getDataDirectory () + "/data/personas" );
@@ -61,20 +61,20 @@ public class Main extends Activity {
 				Log.d ( "tem", temp );
 				escritor = new OutputStreamWriter ( new FileOutputStream ( f ) );
 				escritor.write ( temp );
-				escritor.write ( txtNombre.getText ().toString () + "-" );
-				escritor.write ( txtTelefono.getText ().toString () + "\n" );
+				escritor.write ( text_name.getText ().toString () + "-" );
+				escritor.write ( text_phone.getText ().toString () + "\n" );
 			}
 			else {
 				escritor = new OutputStreamWriter ( new FileOutputStream ( f ) );
-				escritor.write ( txtNombre.getText ().toString () + "-" );
-				escritor.write ( txtTelefono.getText ().toString () + "\n" );
+				escritor.write ( text_name.getText ().toString () + "-" );
+				escritor.write ( text_phone.getText ().toString () + "\n" );
 			}
-			txtNombre.setText ( "" );
-			txtTelefono.setText ( "" );
+			text_name.setText ( "" );
+			text_phone.setText ( "" );
 			f.setReadable ( true, false );
 		}
 		catch ( Exception e ) {
-			Log.e ( "Pepita", e.toString () );
+			Log.e ( "error", e.toString () );
 		}
 		finally {
 			try {
@@ -83,8 +83,8 @@ public class Main extends Activity {
 				}
 			}
 			catch ( IOException ex ) {
-				ex.printStackTrace ();
+				Log.e ( "error", ex.toString () );
 			}
 		}
-	}// FIN ESCRIBIRFICHERO()
+	}
 }

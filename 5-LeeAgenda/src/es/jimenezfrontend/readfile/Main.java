@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
+import android.view.Gravity;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TableLayout;
@@ -18,7 +19,7 @@ import android.widget.TextView;
 public class Main extends Activity {
 	private float scale;
 	private LinearLayout form_main_layout;
-	private LinearLayout.LayoutParams main_layout_params, view_layout_params, table_main_layout_params;
+	private LinearLayout.LayoutParams main_layout_params, row_layout_params, table_main_layout_params, form_layout_params;
 	private TableLayout main_table;
 	private TableRow row;
 	private String temp;
@@ -53,10 +54,10 @@ public class Main extends Activity {
 
 	private void prepareForm () {
 		form_main_layout = prepareMainLayout ( R.drawable.background );
-		view_layout_params = new LayoutParams ( LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT );
+		form_layout_params = new LayoutParams ( LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT );
 		int dp_margins = ( int ) ( 6 * scale + 0.5f );
-		view_layout_params.setMargins ( dp_margins, dp_margins, dp_margins, dp_margins );
-		form_main_layout.setLayoutParams ( view_layout_params );
+		form_layout_params.setMargins ( dp_margins, dp_margins, dp_margins, dp_margins );
+		form_main_layout.setLayoutParams ( form_layout_params );
 
 	}
 
@@ -68,10 +69,19 @@ public class Main extends Activity {
 
 	private void prepareCell ( String cells ) {
 		row = new TableRow ( getApplicationContext () );
+		row_layout_params = new LayoutParams ( LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT );
+		int dp_margins = ( int ) ( 6 * scale + 0.5f );
+		row_layout_params.setMargins ( dp_margins, dp_margins, dp_margins, dp_margins );
+		row.setLayoutParams ( row_layout_params );
+		row.setGravity ( Gravity.CENTER );
 		String[] cell_results = cells.split ( "-" );
 		for ( int i = 0; i < cell_results.length; i++ ) {
 			TextView tv = new TextView ( getApplicationContext () );
+			int dp_paddings = ( int ) ( 16 * scale + 0.5f );
 			tv.setText ( cell_results[i] );
+			tv.setBackground ( getResources ().getDrawable ( R.drawable.table_cell ) );
+			tv.setTextColor ( getResources ().getColor ( R.color.pure_black ) );
+			tv.setPadding ( dp_paddings, dp_paddings, dp_paddings, dp_paddings );
 			row.addView ( tv );
 		}
 		main_table.addView ( row );
